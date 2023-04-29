@@ -14,71 +14,73 @@
       <a class="main-header-link" href="#">
         <img class="main-header-logo" width="145" height="36" src="#" alt="Логотип сайта Девайс.">
       </a>
-      <!--Форма для поиска по сайту-->
-      <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="search-label">
-          <span class="visually-hidden">Поиск по сайту.</span>
-          <input class="search-input" type="search" name="search" placeholder="Поиск по сайту" required>
-        </label>
-        <button class="search-button" type="button">Найти</button>
-      </form>
-      <!--Навигация для пользователя-->
-      <nav class="main-navigation-user">
-        <ul class="main-navigation-user-login">
-          <li class="main-navigation-user-item">
-            <a class="login-link-button" href="#">
-              Войти
-            </a>
-          </li>
-        </ul>
-        <ul class="main-navigation-user-right">
-          <li class="main-navigation-user-right-item">
-            <a class="compare-button" href="#">
-              Сравнить
-            </a>
-          </li>
-          <li class="main-navigation-user-right-item">
-            <a class="cart-button" href="#" data-cart-counter="2">
-              Корзина
-            </a>
-            <!--Содержимое корзины-->
-            <div class="popover popover-cart">
-              <ul class="cart-list">
-                <li class="cart-item">
-                  <a class="cart-item-link" href="#">
-                    <img src="#" alt="Любительская селфи-палка." width="39" height="43">
-                    <p class="cart-item-title">Любительская селфи-палка</p>
-                  </a>
-                  <button class="popover-item-close-button" type="button">
-                    <span class="visually-hidden">Удалить товар из корзины.</span>
-                  </button>
-                </li>
-                <li class="cart-item">
-                  <a class="cart-item-link" href="#">
-                    <img src="#" alt="Профессиональная селфи-палка." width="39" height="43">
-                    <p class="cart-item-title">Профессиональная
-                      селфи-палка</p>
-                  </a>
-                  <button class="popover-item-close-button" type="button">
-                    <span class="visually-hidden">Удалить товар из корзины</span>
-                  </button>
-                </li>
-              </ul>
-              <div class="total-order-amount">
-                <p class="order-items-quantity">Товаров:
-                  <span>2</span>
-                </p>
-                <p class="order-price">Сумма:
-                  <span>2000 ₽</span>
-                </p>
+      <div class="main-navigation-user-wrapper">
+        <!--Форма для поиска по сайту-->
+        <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="search-label">
+            <span class="visually-hidden">Поиск по сайту.</span>
+            <input class="search-input" type="search" name="search" placeholder="Поиск по сайту" required>
+          </label>
+          <button class="search-button" type="button">Найти</button>
+        </form>
+        <!--Навигация для пользователя-->
+        <nav class="main-navigation-user">
+          <ul class="main-navigation-user-login">
+            <li class="main-navigation-user-item">
+              <a class="login-link-button" href="#">
+                Войти
+              </a>
+            </li>
+          </ul>
+          <ul class="main-navigation-user-right">
+            <li class="main-navigation-user-right-item">
+              <a class="compare-button" href="#">
+                Сравнить
+              </a>
+            </li>
+            <li class="main-navigation-user-right-item">
+              <a class="cart-button" href="#" data-cart-counter="2">
+                Корзина
+              </a>
+              <!--Содержимое корзины-->
+              <div class="popover popover-cart">
+                <ul class="cart-list">
+                  <li class="cart-item">
+                    <a class="cart-item-link" href="#">
+                      <img src="#" alt="Любительская селфи-палка." width="39" height="43">
+                      <p class="cart-item-title">Любительская селфи-палка</p>
+                    </a>
+                    <button class="popover-item-close-button" type="button">
+                      <span class="visually-hidden">Удалить товар из корзины.</span>
+                    </button>
+                  </li>
+                  <li class="cart-item">
+                    <a class="cart-item-link" href="#">
+                      <img src="#" alt="Профессиональная селфи-палка." width="39" height="43">
+                      <p class="cart-item-title">Профессиональная
+                        селфи-палка</p>
+                    </a>
+                    <button class="popover-item-close-button" type="button">
+                      <span class="visually-hidden">Удалить товар из корзины</span>
+                    </button>
+                  </li>
+                </ul>
+                <div class="total-order-amount">
+                  <p class="order-items-quantity">Товаров:
+                    <span>2</span>
+                  </p>
+                  <p class="order-price">Сумма:
+                    <span>2000 ₽</span>
+                  </p>
+                </div>
+                <div class="popover-cart-button-wrapper">
+                  <a class="popover-cart-button" href="#">Открыть корзину</a>
+                </div>
               </div>
-              <div class="popover-cart-button-wrapper">
-                <a class="popover-cart-button" href="#">Открыть корзину</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </nav>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <!--Кнопка каталога-->
       <div class="header-lists-wrapper">
         <div class="toggler-wrapper">

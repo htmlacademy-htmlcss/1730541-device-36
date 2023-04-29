@@ -43,6 +43,75 @@ body {
   min-height: 100%;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
+.main-header {
+  padding: 20px 60px;
+  background: linear-gradient(#ffffff 40px, #ffe17f 40px, #ffe17f 100%);
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.main-navigation-user-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.search-label {
+  flex-grow: 1;
+  display: flex;
+}
+
+.search-input {
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid #000000;
+  border-radius: 50px 0 0 50px;
+  padding: 8px 46px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  background-color: transparent;
+  background-image: url("../images/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: left 14px center;
+  outline: none;
+}
+
+.search-button {
+  position: relative;
+  border: 2px solid #000000;
+  border-radius: 0 50px 50px 0;
+  padding: 8px 54px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  background-color: transparent;
+  font-family: "Rubik", sans-serif;
+  margin-left: -2px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color .2s, color .2s;
+}
+
+.main-navigation-user {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px 23px;
+  min-width: 497px;
+  max-width: 500px;
+}
+
+.main-navigation-user-login,
+.main-navigation-user-right {
+  list-style-type: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
