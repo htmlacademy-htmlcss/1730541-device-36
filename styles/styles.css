@@ -760,11 +760,22 @@ body {
   flex-wrap: wrap;
 }
 
-.characteristics-wrapper {
+.camera-characteristics {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 140px 1fr;
   grid-column-gap: 20px;
   row-gap: 12px;
+}
+
+.bracelete-characteristics {
+  display: grid;
+  gap: 12px;
+}
+
+.stick-characteristics {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 100px 80px 80px;
 }
 
 .characteristics-description {
@@ -799,7 +810,7 @@ body {
   margin-bottom: 29px;
 }
 
-.characteristics-wrapper:not(:last-child) {
+.camera-characteristics:not(:last-child) {
   margin-right: 20px;
 }
 
