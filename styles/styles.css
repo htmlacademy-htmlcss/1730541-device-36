@@ -109,6 +109,7 @@ body {
 }
 
 .main-header-logo {
+  display: block;
   width: 145px;
   margin-bottom: 22px;
 }
@@ -1705,8 +1706,6 @@ body {
 .modal {
   width: 920px;
 }
-
-
 
 .modal-closed {
   display: none;

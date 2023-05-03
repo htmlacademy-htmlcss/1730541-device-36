@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>ga
 <html lang="ru">
 
   <head>
@@ -25,12 +25,12 @@
         </a>
         <div class="main-navigation-user-wrapper">
           <!--Форма для поиска по сайту-->
-          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+          <form class="search-form" action="#" method="get">
             <label class="search-label">
               <span class="visually-hidden">Поиск по сайту.</span>
               <input class="search-input" type="search" name="search" placeholder="Поиск по сайту" required>
             </label>
-            <button class="search-button" type="button">Найти</button>
+            <button class="search-button" type="submit">Найти</button>
           </form>
           <!--Навигация для пользователя-->
           <nav class="main-navigation-user">
@@ -408,9 +408,10 @@
           </div>
           <div class="newslettering-form-wrapper">
             <form class="newslettering-form" action="https://echo.htmlacademy.ru/" method="post">
-              <label class="field-label">
+              <label class="field-label" for="subscription-email">
                 <span class="visually-hidden">Ваш e-mail</span>
-                <input class="field" placeholder="Ваш e-mail" type="email" name="newslettering-email" required>
+                <input class="field" placeholder="Ваш e-mail" type="email" name="newslettering-email"
+                  id="subscription-email" required>
               </label>
               <button class="button newslettering-button" type="submit">
                 Подписаться
@@ -563,25 +564,27 @@
               <div class="delivery-form-wrapper">
                 <div class="user-data-wrapper">
                   <div class="modal-name-wrapper">
-                    <label class="delivery-form-label">
+                    <label class="delivery-form-label" for="name">
                       Ваше имя:
-                      <input class="user-data-input name-input" type="text" placeholder="Введите имя" required>
+                      <input class="user-data-input name-input" type="text" placeholder="Введите имя" id="name"
+                        required>
                     </label>
                     <span class="visually-hidden name-error-text">Добавьте имя</span>
                   </div>
                   <div class="modal-email-wrapper">
-                    <label class="delivery-form-label">
+                    <label class="delivery-form-label" for="email">
                       Ваш e-mail:
                       <input class="user-data-input email-input-invalid email-input" type="email"
-                        placeholder="Введите email" value="почта" required>
+                        placeholder="Введите email" value="почта" id="email" required>
                     </label>
                     <span class="email-error-text">Забавный у вас адрес</span>
                   </div>
                 </div>
                 <div class="order-data-wrapper">
-                  <label class="delivery-form-label">
+                  <label class="delivery-form-label" for="information">
                     Что нужно привезти:
-                    <input class="order-data-input" type="text" placeholder="В свободной форме" required>
+                    <input class="order-data-input" type="text" placeholder="В свободной форме" id="information"
+                      required>
                   </label>
                   <div class="quantity-buttons-wrapper">
                     <span class="delivery-form-label delivery-form-label-icon">
