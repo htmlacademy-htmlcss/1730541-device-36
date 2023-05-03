@@ -88,6 +88,12 @@ body {
   background-color: #ffcc33;
 }
 
+.button:focus-visible,
+.button-decorated:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -109,14 +115,13 @@ body {
 }
 
 .main-header-logo {
-  display: block;
+  display: flex;
   width: 145px;
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 
 
 .main-footer-logo {
-  display: block;
   width: 145px;
 }
 
@@ -130,8 +135,8 @@ body {
   opacity: 0.3;
 }
 
-.main-header-logo:focus-visible,
-.main-footer-logo:focus-visible {
+.main-header-link:focus-visible,
+.main-footer-lo:focus-visible {
   outline: 2px solid #af4fff;
 }
 
